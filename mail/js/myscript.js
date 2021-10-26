@@ -11,18 +11,18 @@ console.log(email);
 
 /* creiamo un'array */
 
-const mailList = [`gino@hotmail.com`, `gino2@hotmail.com`];
+const mailList = ["gino@hotmail.com", "gino2@hotmail.com"];
 console.log(mailList);
 
 /* prova prompt */
 
     if (email == mailList) {
 
-        verificaMail.innerHtml = `salve`;
+        verificaMail.innerHTML = `salve ${email}`;
     
     } else if (email != mailList){
     
-        verificaMail.innerHtml = `Mi dispiace ma la sua mail non si trova nella lista`;
+        verificaMail.innerHTML = `Mi dispiace ma la sua mail non si trova nella lista`;
     
     }
 
